@@ -27,11 +27,11 @@ public class AddTwoNumbers {
      * 3.最后一个加法的进位要记得生成一个链表节点
      *
      * 时间复杂度O(max(m, n)) m是l1链表的长度 n是l2链表的长度
-     * @param l1
-     * @param l2
-     * @return
+     * @param l1 ListNode
+     * @param l2 ListNode
+     * @return head ListNode
      */
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    public ListNode solution1(ListNode l1, ListNode l2) {
         int carry = 0,//carry是每一位相加的进位
                 sum,//sum是每一位相加之和
                 newVal;//newVal是新的值

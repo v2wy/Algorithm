@@ -27,8 +27,8 @@ import java.util.HashSet;
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
 public class LengthOfLongestSubstring {
-    public int lengthOfLongestSubstring(String s) {
-        HashSet<Character> hashSet = new HashSet<Character>();
+    public int solution1(String s) {
+        HashSet<Character> hashSet = new HashSet<>();
         int maxLength = 1;
         int strLength = s.length();
         int right = 0;
