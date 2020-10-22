@@ -1,4 +1,4 @@
-package com.morty;
+package com.morty.leetcode;
 
 /**
  * 2. 两数相加
@@ -18,7 +18,7 @@ package com.morty;
  * 链接：https://leetcode-cn.com/problems/add-two-numbers
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class AddTwoNumbers {
+public class _2_AddTwoNumbers {
 
     /**
      * 注意点:

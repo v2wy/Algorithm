@@ -1,4 +1,4 @@
-package com.morty;
+package com.morty.leetcode;
 
 import java.util.HashSet;
 
@@ -26,7 +26,7 @@ import java.util.HashSet;
  * 链接：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class LengthOfLongestSubstring {
+public class _3_LengthOfLongestSubstring {
     public int solution1(String s) {
         HashSet<Character> hashSet = new HashSet<>();
         int maxLength = 1;

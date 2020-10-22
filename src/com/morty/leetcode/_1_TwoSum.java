@@ -1,4 +1,4 @@
-package com.morty;
+package com.morty.leetcode;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -21,7 +21,7 @@ import java.util.Map;
  * 链接：https://leetcode-cn.com/problems/two-sum
  * 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  */
-public class TwoSum {
+public class _1_TwoSum {
     public static int[] solution1(int[] nums, int target) {
         //定义一个map来存储没有命中的数据 key为num value为num的下标
         Map<Integer, Integer> map = new HashMap<>();
